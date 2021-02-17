@@ -1,5 +1,5 @@
 * {
-    font-family: "Times New Roman" , sans-serif;
+    font-family: Arial;
     font-size: 100%;
 }
 
@@ -15,10 +15,11 @@
     width: 1000px;
     box-shadow: 0 2px 6px
     rgba(0,0,0);
+    border-radius: 10px 10px 0px 0px;
 }
 
 .top-bar {
-    background-color: navy;
+    background-color: azure;
     width: 1000px;
     height: 150px;
     border-radius: 10px 10px 0px 0px;
@@ -33,4 +34,34 @@
     margin-left: 5px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.photo-style {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.main-block {
+    width: 1000px;
+    height: 600px;
+    background: magenta;
+}
+
+.bottom-bar {
+    width: 1000px;
+    height: 120px;
+    background-color: brown;
+}
+
+.copy-bar {
+    width: 1000px;
+    height: 75px;
+    background-color: rgb(19, 26, 37);
+    position: absolute;
+}
+
+.copy-text {
+    margin-top: 27px;
+    margin-left: 250px;
 }
