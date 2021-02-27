@@ -5,7 +5,7 @@
 
 .main-content {
     width: 100%;
-    height: auto;
+    height: 980px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -45,13 +45,13 @@
 .main-block {
     width: 1000px;
     height: 600px;
-    background: magenta;
+    background: lightgray;
 }
 
 .bottom-bar {
     width: 1000px;
     height: 120px;
-    background-color: brown;
+    background-color:lightgray;
 }
 
 .copy-bar {
@@ -59,6 +59,7 @@
     height: 75px;
     background-color: rgb(19, 26, 37);
     position: absolute;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .copy-text {
