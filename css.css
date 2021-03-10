@@ -72,13 +72,13 @@ button:hover {
 .main-block {
     width: 1000px;
     height: 600px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.479);
 }
 
 .bottom-bar {
     width: 1000px;
     height: 150px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.479);
 }
 
 .copy-bar {
@@ -158,7 +158,7 @@ button:hover {
     height: 30px;
     border: 2px solid black;
     position: relative;
-    right: 1px;
+    right: 2px;
     background-color: honeydew;
 }
 .software-txt {
@@ -179,7 +179,7 @@ button:hover {
     height: 30px;
     border: 2px solid black;
     position: relative;
-    right: 1px;
+    right: 2px;
     background-color: honeydew;
     top: 107px;
 }
@@ -307,3 +307,16 @@ button:hover {
     width: 1500px;
     
 }
+
+.stuur-button {
+    position: absolute;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 450px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
