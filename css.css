@@ -72,13 +72,13 @@ button:hover {
 .main-block {
     width: 1000px;
     height: 600px;
-    background: lightgray;
+    background: rgb(255, 255, 255);
 }
 
 .bottom-bar {
     width: 1000px;
-    height: 120px;
-    background-color:lightgray;
+    height: 150px;
+    background-color:rgb(255, 255, 255);
 }
 
 .copy-bar {
@@ -212,3 +212,17 @@ button:hover {
     margin: 40px;
     position: absolute;
 }
+
+.regelbreedte {
+width: 1000px;
+position: absolute;
+}
+
+.bottom-streepjes {
+
+    width: 400px;
+    position: absolute;
+}
+
+
+
