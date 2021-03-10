@@ -300,8 +300,10 @@ button:hover {
 
 .bottom-streepjes {
     width: 400px;
-    position: absolute;
+    
 }
 
-
-
+.bottom-streepjes3 {
+    width: 1500px;
+    
+}
