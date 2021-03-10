@@ -239,6 +239,14 @@ button:hover {
     width: 250px;
 }
 
+.input5 {
+    border: 1px solid black;
+    margin-top: 300px;
+    margin-left: 40px;
+    position: absolute;
+    width: 250px;
+}
+
 .inschrijf-txt {
     position: absolute;
     font-size: 20px;
@@ -277,13 +285,20 @@ button:hover {
     opacity: 0.5;
 }
 
+.input5-txt {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 320px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
 .regelbreedte {
-width: 1000px;
-position: absolute;
+    width: 1000px;
+    position: absolute;
 }
 
 .bottom-streepjes {
-
     width: 400px;
     position: absolute;
 }
