@@ -34,21 +34,74 @@
 .nav-button {
     height: 30px;
     width: 100px;
-    border: 2px solid black;
-    background-color:gray;
-    margin-left: 3px;
+    background-color: lightslategrey;
     cursor: pointer;
-    border-radius: 5px 5px 5px 5px;
+    opacity: 1;
+    text-decoration: none;
+    color: black;
 }
 
-.inlog-button {
-    height: 30px;
-    width: 100px;
-    border: 2px solid black;
-    background-color:gray;
-    margin-left: 468px;
-    cursor: pointer;
-    border-radius: 5px 5px 5px 5px;
+.nav-button:hover {
+    opacity: 0.6;
+}
+
+.index-button {
+    position: absolute;
+    transition: 0.3s;
+}
+
+.info-button {
+    position: absolute;
+    margin-left: 100px;
+    transition: 0.3s;
+}
+
+.admin-button {
+    position: absolute;
+    margin-left: 200px;
+    transition: 0.3s;
+}
+
+.game-button {
+    position: absolute;
+    margin-left: 300px;
+    transition: 0.3s;
+}
+
+.inlogg-button {
+    position: absolute;
+    margin-left: 900px;
+    transition: 0.3s;
+}
+
+.homepage-txt {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.info-txt-button {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.admin-txt {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 27px;
+}
+
+.game-txt {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 28px;
+}
+
+.inlog-txt {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 19px;
 }
 
 button:hover {
@@ -103,7 +156,7 @@ button:hover {
     position: relative;
     left: 50px;
     top: 50px;
-    background-color: honeydew;
+    background-color: rgb(197, 196, 196);
 }
 
 .welcome-txt {
@@ -159,7 +212,7 @@ button:hover {
     border: 2px solid black;
     position: relative;
     right: 2px;
-    background-color: honeydew;
+    background-color: rgb(197, 196, 196);
 }
 .software-txt {
     font-size: 15px;
@@ -180,7 +233,7 @@ button:hover {
     border: 2px solid black;
     position: relative;
     right: 2px;
-    background-color: honeydew;
+    background-color: rgb(197, 196, 196);
     top: 107px;
 }
 
@@ -201,7 +254,7 @@ button:hover {
     width: 400px;
     height: 500px;
     border: 2px solid black;
-    background-color: honeydew;
+    background-color: rgb(197, 196, 196);
     margin-left: 75px;
     margin-top: 50px;
     position: absolute;
@@ -318,5 +371,44 @@ button:hover {
     margin-top: 450px;
     margin-left: 260px;
     cursor: pointer;
+}
+
+.info-welcome {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    background-color: rgb(197, 196, 196);
+}
+
+.info-welcome-txt {
+    margin-left: 10px;
+}
+
+.info-txt-block {
+    height: 250px;
+    width: 800px;
+    border: 2px solid black;
+    background-color: rgb(197, 196, 196);
+    margin-left: 100px;
+}
+
+.info-txt {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info2-txt-block {
+    height: 170px;
+    width: 650px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: rgb(197, 196, 196);
+}
+
+.info2-txt {
+    margin-left: 10px;
 }
 
