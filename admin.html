@@ -41,18 +41,20 @@
             </div>
             <div class="main-block">
                 <div class="input-block">
-                    <p class="inschrijf-txt">Inschrijf Formulier MBO Utrecht</p>
-                    <input type="text" class="input1">
-                    <p class="input1-txt">Voornaam</p>
-                    <input type="text" class="input2">
-                    <p class="input2-txt">Achternaam</p>
-                    <input type="text" class="input3">
-                    <p class="input3-txt">Geboorte datum</p>
-                    <input type="text" class="input4">
-                    <p class="input4-txt">Telefoonnummer</p>
-                    <input type="text" class="input5">
-                    <p class="input5-txt">Email-adress</p>
-                    <button class="stuur-button">Stuur op</button>
+                    <form action="formulier_verstuur_verwerk.php" method="POST">
+                        <p class="inschrijf-txt">Inschrijf Formulier MBO Utrecht</p>
+                        <input type="text" class="input1" name="firstname">
+                        <p class="input1-txt">Voornaam</p>
+                        <input type="text" class="input2" name="lastname">
+                        <p class="input2-txt">Achternaam</p>
+                        <input type="date" class="input3" name="date_of_birth">
+                        <p class="input3-txt">Geboorte datum</p>
+                        <input type="text" class="input4" name="phone_number">
+                        <p class="input4-txt">Telefoonnummer</p>
+                        <input type="text" class="input5" name="email_adres">
+                        <p class="input5-txt">Email-adress</p>
+                        <input type="submit" class="stuur-button"></input>
+                    </form>
                 </div>
             </div>
             <div class="bottom-bar">
