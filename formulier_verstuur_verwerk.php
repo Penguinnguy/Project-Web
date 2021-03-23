@@ -13,6 +13,7 @@ if (isset($_POST)) {
     $stmt-> bind_param("sssss", $firstname, $lastname, $date_of_birth, $phone_number, $email_adres);
     $stmt-> execute();
     $stmt-> close();
+    header("Location: admin.html");
 }
 
 
