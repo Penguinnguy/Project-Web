@@ -3,9 +3,13 @@
     font-size: 100%;
 }
 
+body {
+    margin: 0px;
+}
+
 .main-content {
     width: 100%;
-    height: 980px;
+    height: 1000px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -16,6 +20,7 @@
     box-shadow: 0 2px 6px
     rgba(0,0,0);
     border-radius: 10px 10px 0px 0px;
+    opacity: 0.99;
 }
 
 .top-bar {
@@ -300,6 +305,13 @@ button:hover {
     width: 250px;
 }
 
+.input6 {
+    margin-top: 30px;
+    margin-left: 110px;
+    position: absolute;
+    width: 70px;
+}
+
 .inschrijf-txt {
     position: absolute;
     font-size: 20px;
@@ -346,6 +358,12 @@ button:hover {
     opacity: 0.5;
 }
 
+.input6-txt {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
 .regelbreedte {
     width: 1000px;
     position: absolute;
@@ -371,6 +389,16 @@ button:hover {
     margin-top: 450px;
     margin-left: 260px;
     cursor: pointer;
+}
+.stuur-button-game {
+    position: absolute;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 60px;
+    margin-left: 95px;
 }
 
 .info-welcome {
@@ -409,6 +437,31 @@ button:hover {
 }
 
 .info2-txt {
+    margin-left: 10px;
+}
+
+.score-block {
+    width: 200px;
+    height: 100px;
+    opacity: 0.8;
+    margin-left: 750px;
+    margin-top: 50px;
+    position: absolute;
+    background-color: rgb(107, 197, 107);
+    border: 1px solid black;
+}
+
+.game-info {
+    width: 300px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: 200px;
+    background-color: rgb(197, 196, 196);
+    position: absolute;
+    border: 2px solid black;
+}
+
+.game-info-txt {
     margin-left: 10px;
 }
 
